@@ -1,0 +1,3 @@
+A implementação do TreeSet tem alguns critérios que tornam a execução mais lenta se comparado com a implementação do LinkedHashSet. O principal critério que torna a execução lenta é a garantia de ordenação dos dados durante a inserção e remoção de objetos. Já o LinkedHashSet não implementa esse critério, sendo implementado através de uma lista encadeada, respeitando a ordem de inserção dos objetos, tendo uma execução tão rápida quanto a HashSet.
+
+Por se tratar de implementações parecidas e que atendem as necessidades abordadas, é de suma importância a alteração da implementação TreeSet pela LinkedHashSet, para que seja possível diminuir o tempo de envio das mensagens.
